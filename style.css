@@ -3,10 +3,6 @@ body {
   color: white;
   margin: 0;
 }
-h1 {
-  color: white;
-  font-size: 1rem;
-}
 
 .my-heading {
   color: white;
@@ -28,7 +24,6 @@ h1 {
 }
 
 .left .logo {
-  
   height: 100px;
 }
 
@@ -43,7 +38,75 @@ h1 {
   transition: 1s;
   font-weight: bold;
 }
-.navbar-btn:hover{
-    background-color: black;
-    color: white;
+.navbar-btn:hover {
+  background-color: black;
+  color: white;
+}
+
+/* hero-sect */
+.hero-sect {
+  display: flex;
+  justify-content: center;
+  background-color: aqua;
+}
+.hero-sect .heading {
+  font-size: 33px;
+  font-weight: 200;
+  color: black;
+}
+/* my-cards */
+.my-cards {
+  display: flex;
+  /* margin: 20px 40px; */
+  width: 100%;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  padding: 0;
+  border: 2px solid white;
+  /* width: 33%; */
+  text-align: center;
+  background-color: azure;
+  color: black;
+}
+.p-img{
+  width: 100%;
+}
+.p-heading{
+   color: black;
+  font-size: 30px;
+  font-weight: bold;
+  padding: 0px 12px;
+  margin: 0;
+}
+.p-description{
+  color: black;
+  font-size: 18px;
+  padding: 10px 12px;
+  margin: 0;
+  text-align: left;
+}
+.p-price{
+  font-weight: bold;
+  color: blue;
+  font-size: 30px;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+.p-btn{
+  color: black;
+  background-color: aqua;
+  cursor: pointer;
+  font-size: 22px;
+  font-weight: bold;
+  padding: 10px 20px;
+  margin: 10px 20px;
+  transition: 0.9s;
+}
+.p-btn:hover{
+  background-color: black;
+  color: white;
 }
